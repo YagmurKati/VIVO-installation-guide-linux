@@ -5,6 +5,11 @@ This repository packages the configs and scripts to reproduce a working VIVO 1.1
 > **Heads up:** Do **not** commit live secrets. Edit `config/vivo/runtime.properties.example` locally,
 copy it to the server as `/opt/vivo/vivo/config/runtime.properties`, and keep it out of git.
 
+## Documentation
+A detailed step-by-step installation guide (with screenshots) is available:
+
+- [Installation Guide (PDF)](docs/installation-guide.pdf)
+
 ## Requirements
 - OS: Ubuntu 22.04+ (Debian-based; adapt for other distros)
 - Java: OpenJDK **17** (JDK, not JRE)
