@@ -5,6 +5,13 @@ This repository packages the configs and scripts to reproduce a working VIVO 1.1
 > **Heads up:** Do **not** commit live secrets. Edit `config/vivo/runtime.properties.example` locally,
 copy it to the server as `/opt/vivo/vivo/config/runtime.properties`, and keep it out of git.
 
+## Requirements
+- OS: Ubuntu 22.04+ (Debian-based; adapt for other distros)
+- Java: OpenJDK **17** (JDK, not JRE)
+- Tomcat: **9.0.109**
+- Solr: **9.6.1**
+- Tools: `git`, `maven`, `curl`, `rsync`, `systemd`
+
 ## Quick start (on the target server)
 
 ```bash
